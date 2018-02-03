@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xzz-3l-uAl">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="osk-83-w7H">
+            <objects>
+                <viewController id="xzz-3l-uAl" customClass="SplashViewController" customModule="QRScan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="drW-Nq-WXy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5J-PA-6XE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qmc-93-ZVh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black" translatesAutoresizingMaskIntoConstraints="NO" id="1UJ-78-c1Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VergePay" translatesAutoresizingMaskIntoConstraints="NO" id="OUS-gL-V0T">
+                                        <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="OUS-gL-V0T" secondAttribute="height" multiplier="1:1" id="m3n-yx-mCy"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1UJ-78-c1Y" secondAttribute="trailing" id="HnZ-C2-mre"/>
+                                    <constraint firstItem="1UJ-78-c1Y" firstAttribute="leading" secondItem="Qmc-93-ZVh" secondAttribute="leading" id="V3d-t9-4GX"/>
+                                    <constraint firstItem="1UJ-78-c1Y" firstAttribute="top" secondItem="Qmc-93-ZVh" secondAttribute="top" id="dRO-z0-O2g"/>
+                                    <constraint firstItem="OUS-gL-V0T" firstAttribute="centerX" secondItem="Qmc-93-ZVh" secondAttribute="centerX" id="dbL-e4-a4N"/>
+                                    <constraint firstAttribute="bottom" secondItem="1UJ-78-c1Y" secondAttribute="bottom" id="fla-pN-U0b"/>
+                                    <constraint firstItem="OUS-gL-V0T" firstAttribute="centerY" secondItem="Qmc-93-ZVh" secondAttribute="centerY" id="pF7-Hj-qR1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m5J-PA-6XE" firstAttribute="trailing" secondItem="8NU-C3-fWC" secondAttribute="trailing" id="9Kd-nS-Ru4"/>
+                            <constraint firstItem="Qmc-93-ZVh" firstAttribute="top" secondItem="drW-Nq-WXy" secondAttribute="top" id="Hor-3N-NdP"/>
+                            <constraint firstItem="Qmc-93-ZVh" firstAttribute="leading" secondItem="8NU-C3-fWC" secondAttribute="leading" id="VoJ-o6-jTG"/>
+                            <constraint firstItem="Qmc-93-ZVh" firstAttribute="trailing" secondItem="8NU-C3-fWC" secondAttribute="trailing" id="hUr-Rf-h1m"/>
+                            <constraint firstAttribute="bottom" secondItem="m5J-PA-6XE" secondAttribute="bottom" constant="-52" id="nn6-sh-zCd"/>
+                            <constraint firstItem="m5J-PA-6XE" firstAttribute="leading" secondItem="8NU-C3-fWC" secondAttribute="leading" id="tEl-BJ-bz6"/>
+                            <constraint firstItem="Qmc-93-ZVh" firstAttribute="bottom" secondItem="8NU-C3-fWC" secondAttribute="bottom" id="xuX-UV-Zqd"/>
+                            <constraint firstItem="m5J-PA-6XE" firstAttribute="top" secondItem="drW-Nq-WXy" secondAttribute="top" id="yVG-wv-lTi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8NU-C3-fWC"/>
+                    </view>
+                    <connections>
+                        <outlet property="baseView" destination="m5J-PA-6XE" id="e7H-2Z-Bas"/>
+                        <outlet property="imageBaseView" destination="Qmc-93-ZVh" id="Yvh-6F-UCu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvC-z8-y93" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80.625" y="188.02816901408451"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="VergePay" width="200" height="200"/>
+        <image name="black" width="220" height="220"/>
+    </resources>
+</document>

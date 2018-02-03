@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D4ADA420255B0C009BFE7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADA320255B0C009BFE7C /* AppDelegate.swift */; };
+		36D4ADAB20255B0C009BFE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D4ADAA20255B0C009BFE7C /* Assets.xcassets */; };
+		36D4ADB920255B0C009BFE7C /* VergePAY_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADB820255B0C009BFE7C /* VergePAY_iOSTests.swift */; };
+		36D4ADC420255B0C009BFE7C /* VergePAY_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADC320255B0C009BFE7C /* VergePAY_iOSUITests.swift */; };
+		36D4ADE620255D8F009BFE7C /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADD720255D8E009BFE7C /* String+.swift */; };
+		36D4ADE720255D8F009BFE7C /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADD820255D8E009BFE7C /* UILabel+.swift */; };
+		36D4ADE820255D8F009BFE7C /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADD920255D8E009BFE7C /* UIApplication+.swift */; };
+		36D4ADE920255D8F009BFE7C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADDA20255D8E009BFE7C /* UIView+.swift */; };
+		36D4ADEA20255D8F009BFE7C /* enum+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADDB20255D8E009BFE7C /* enum+.swift */; };
+		36D4ADEB20255D8F009BFE7C /* NSAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADDC20255D8E009BFE7C /* NSAttributedString+.swift */; };
+		36D4ADEC20255D8F009BFE7C /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADDD20255D8E009BFE7C /* DispatchQueue+.swift */; };
+		36D4ADED20255D8F009BFE7C /* CGContext+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADDE20255D8E009BFE7C /* CGContext+.swift */; };
+		36D4ADEE20255D8F009BFE7C /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADDF20255D8F009BFE7C /* Collection+.swift */; };
+		36D4ADEF20255D8F009BFE7C /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADE020255D8F009BFE7C /* Double+.swift */; };
+		36D4ADF020255D8F009BFE7C /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADE120255D8F009BFE7C /* UIViewController+.swift */; };
+		36D4ADF120255D8F009BFE7C /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADE220255D8F009BFE7C /* UIImage+.swift */; };
+		36D4ADF220255D8F009BFE7C /* NSRange+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADE320255D8F009BFE7C /* NSRange+.swift */; };
+		36D4ADF320255D8F009BFE7C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADE420255D8F009BFE7C /* UITableView.swift */; };
+		36D4ADF420255D8F009BFE7C /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4ADE520255D8F009BFE7C /* DateFormatter+.swift */; };
+		36D4AE0120255DD3009BFE7C /* QRScan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4ADFD20255DD3009BFE7C /* QRScan.storyboard */; };
+		36D4AE0220255DD3009BFE7C /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4ADFE20255DD3009BFE7C /* WebView.storyboard */; };
+		36D4AE0720255DF7009BFE7C /* BTCConvertPriceAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0520255DF7009BFE7C /* BTCConvertPriceAPIModel.swift */; };
+		36D4AE0820255DF7009BFE7C /* MarketPriceAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0620255DF7009BFE7C /* MarketPriceAPIModel.swift */; };
+		36D4AE0F20255E12009BFE7C /* BlockInfoAddressParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0A20255E12009BFE7C /* BlockInfoAddressParser.swift */; };
+		36D4AE1020255E12009BFE7C /* BlockInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0B20255E12009BFE7C /* BlockInfoData.swift */; };
+		36D4AE1120255E12009BFE7C /* BlockInfoAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0C20255E12009BFE7C /* BlockInfoAPIModel.swift */; };
+		36D4AE1220255E12009BFE7C /* BTCConvertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0D20255E12009BFE7C /* BTCConvertData.swift */; };
+		36D4AE1320255E12009BFE7C /* MarketPriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE0E20255E12009BFE7C /* MarketPriceData.swift */; };
+		36D4AE1520255E33009BFE7C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE1420255E33009BFE7C /* MainViewModel.swift */; };
+		36D4AE1C20255E50009BFE7C /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE1720255E50009BFE7C /* QRScanViewController.swift */; };
+		36D4AE1D20255E50009BFE7C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE1820255E50009BFE7C /* MainViewController.swift */; };
+		36D4AE1E20255E50009BFE7C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE1920255E50009BFE7C /* WebViewController.swift */; };
+		36D4AE1F20255E50009BFE7C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE1A20255E50009BFE7C /* SplashViewController.swift */; };
+		36D4AE2120255E73009BFE7C /* LinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2020255E73009BFE7C /* LinkLabel.swift */; };
+		36D4AE3220256099009BFE7C /* AcountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2420256098009BFE7C /* AcountCell.swift */; };
+		36D4AE3320256099009BFE7C /* QRScanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE2520256098009BFE7C /* QRScanCell.xib */; };
+		36D4AE3420256099009BFE7C /* QRDisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE2620256098009BFE7C /* QRDisplayCell.xib */; };
+		36D4AE3520256099009BFE7C /* QRScanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2720256098009BFE7C /* QRScanCell.swift */; };
+		36D4AE3620256099009BFE7C /* TransactionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE2820256098009BFE7C /* TransactionHeaderCell.xib */; };
+		36D4AE3720256099009BFE7C /* AcountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE2920256098009BFE7C /* AcountCell.xib */; };
+		36D4AE3820256099009BFE7C /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2A20256098009BFE7C /* FooterCell.swift */; };
+		36D4AE3920256099009BFE7C /* MarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2B20256098009BFE7C /* MarketCell.swift */; };
+		36D4AE3A20256099009BFE7C /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2C20256098009BFE7C /* TransactionCell.swift */; };
+		36D4AE3B20256099009BFE7C /* MarketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE2D20256098009BFE7C /* MarketCell.xib */; };
+		36D4AE3C20256099009BFE7C /* TransactionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE2E20256098009BFE7C /* TransactionHeaderCell.swift */; };
+		36D4AE3D20256099009BFE7C /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE2F20256099009BFE7C /* TransactionCell.xib */; };
+		36D4AE3E20256099009BFE7C /* QRDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4AE3020256099009BFE7C /* QRDisplayCell.swift */; };
+		36D4AE3F20256099009BFE7C /* FooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE3120256099009BFE7C /* FooterCell.xib */; };
+		36D4AE442025614D009BFE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE402025614C009BFE7C /* LaunchScreen.storyboard */; };
+		36D4AE452025614D009BFE7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4AE422025614C009BFE7C /* Main.storyboard */; };
+		B952E691A44C55BDD2ABFBCB /* Pods_VergePAY_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F482786B06852FEE86C3 /* Pods_VergePAY_iOS.framework */; };
+		BE6CE676D8A414A9BABF4363 /* Pods_VergePAY_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399803812B48FBFE43068168 /* Pods_VergePAY_iOSTests.framework */; };
+		C7651F9D3367483499EA9CA0 /* Pods_VergePAY_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D891111B5DAA278DBA3D39 /* Pods_VergePAY_iOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D4ADB520255B0C009BFE7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D4AD9820255B0C009BFE7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D4AD9F20255B0C009BFE7C;
+			remoteInfo = "VergePAY iOS";
+		};
+		36D4ADC020255B0C009BFE7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D4AD9820255B0C009BFE7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D4AD9F20255B0C009BFE7C;
+			remoteInfo = "VergePAY iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128E89ABECD10874A803975B /* Pods-VergePAY iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VergePAY iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VergePAY iOSTests/Pods-VergePAY iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31C29DF762998D106939FA4D /* Pods-VergePAY iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VergePAY iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VergePAY iOS/Pods-VergePAY iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		36D4ADA020255B0C009BFE7C /* VergePAY iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VergePAY iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D4ADA320255B0C009BFE7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36D4ADAA20255B0C009BFE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36D4ADAF20255B0C009BFE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4ADB420255B0C009BFE7C /* VergePAY iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VergePAY iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D4ADB820255B0C009BFE7C /* VergePAY_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VergePAY_iOSTests.swift; sourceTree = "<group>"; };
+		36D4ADBA20255B0C009BFE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4ADBF20255B0C009BFE7C /* VergePAY iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VergePAY iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D4ADC320255B0C009BFE7C /* VergePAY_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VergePAY_iOSUITests.swift; sourceTree = "<group>"; };
+		36D4ADC520255B0C009BFE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4ADD720255D8E009BFE7C /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "VergePAY iOS/Extension/String+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADD820255D8E009BFE7C /* UILabel+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+.swift"; path = "VergePAY iOS/Extension/UILabel+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADD920255D8E009BFE7C /* UIApplication+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+.swift"; path = "VergePAY iOS/Extension/UIApplication+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADDA20255D8E009BFE7C /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "VergePAY iOS/Extension/UIView+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADDB20255D8E009BFE7C /* enum+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "enum+.swift"; path = "VergePAY iOS/Extension/enum+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADDC20255D8E009BFE7C /* NSAttributedString+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+.swift"; path = "VergePAY iOS/Extension/NSAttributedString+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADDD20255D8E009BFE7C /* DispatchQueue+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+.swift"; path = "VergePAY iOS/Extension/DispatchQueue+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADDE20255D8E009BFE7C /* CGContext+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGContext+.swift"; path = "VergePAY iOS/Extension/CGContext+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADDF20255D8F009BFE7C /* Collection+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Collection+.swift"; path = "VergePAY iOS/Extension/Collection+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADE020255D8F009BFE7C /* Double+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Double+.swift"; path = "VergePAY iOS/Extension/Double+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADE120255D8F009BFE7C /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "VergePAY iOS/Extension/UIViewController+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADE220255D8F009BFE7C /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "VergePAY iOS/Extension/UIImage+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADE320255D8F009BFE7C /* NSRange+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSRange+.swift"; path = "VergePAY iOS/Extension/NSRange+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADE420255D8F009BFE7C /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = "VergePAY iOS/Extension/UITableView.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADE520255D8F009BFE7C /* DateFormatter+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DateFormatter+.swift"; path = "VergePAY iOS/Extension/DateFormatter+.swift"; sourceTree = SOURCE_ROOT; };
+		36D4ADFD20255DD3009BFE7C /* QRScan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRScan.storyboard; sourceTree = "<group>"; };
+		36D4ADFE20255DD3009BFE7C /* WebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		36D4AE0520255DF7009BFE7C /* BTCConvertPriceAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BTCConvertPriceAPIModel.swift; path = "VergePAY iOS/Model/BTCConvertPriceAPIModel.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE0620255DF7009BFE7C /* MarketPriceAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketPriceAPIModel.swift; path = "VergePAY iOS/Model/MarketPriceAPIModel.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE0A20255E12009BFE7C /* BlockInfoAddressParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockInfoAddressParser.swift; path = "VergePAY iOS/Data/BlockInfoAddressParser.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE0B20255E12009BFE7C /* BlockInfoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockInfoData.swift; path = "VergePAY iOS/Data/BlockInfoData.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE0C20255E12009BFE7C /* BlockInfoAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockInfoAPIModel.swift; path = "VergePAY iOS/Data/BlockInfoAPIModel.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE0D20255E12009BFE7C /* BTCConvertData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BTCConvertData.swift; path = "VergePAY iOS/Data/BTCConvertData.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE0E20255E12009BFE7C /* MarketPriceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketPriceData.swift; path = "VergePAY iOS/Data/MarketPriceData.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE1420255E33009BFE7C /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = "VergePAY iOS/ViewModel/MainViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE1720255E50009BFE7C /* QRScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRScanViewController.swift; path = "VergePAY iOS/View/QRScanViewController.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE1820255E50009BFE7C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "VergePAY iOS/View/MainViewController.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE1920255E50009BFE7C /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = "VergePAY iOS/View/WebViewController.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE1A20255E50009BFE7C /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = "VergePAY iOS/View/SplashViewController.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2020255E73009BFE7C /* LinkLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkLabel.swift; path = "VergePAY iOS/Custom/LinkLabel.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2220255F40009BFE7C /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		36D4AE2420256098009BFE7C /* AcountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AcountCell.swift; path = "VergePAY iOS/View/Cell/AcountCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2520256098009BFE7C /* QRScanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QRScanCell.xib; path = "VergePAY iOS/View/Cell/QRScanCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE2620256098009BFE7C /* QRDisplayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QRDisplayCell.xib; path = "VergePAY iOS/View/Cell/QRDisplayCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE2720256098009BFE7C /* QRScanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRScanCell.swift; path = "VergePAY iOS/View/Cell/QRScanCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2820256098009BFE7C /* TransactionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TransactionHeaderCell.xib; path = "VergePAY iOS/View/Cell/TransactionHeaderCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE2920256098009BFE7C /* AcountCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AcountCell.xib; path = "VergePAY iOS/View/Cell/AcountCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE2A20256098009BFE7C /* FooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FooterCell.swift; path = "VergePAY iOS/View/Cell/FooterCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2B20256098009BFE7C /* MarketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketCell.swift; path = "VergePAY iOS/View/Cell/MarketCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2C20256098009BFE7C /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionCell.swift; path = "VergePAY iOS/View/Cell/TransactionCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2D20256098009BFE7C /* MarketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarketCell.xib; path = "VergePAY iOS/View/Cell/MarketCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE2E20256098009BFE7C /* TransactionHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionHeaderCell.swift; path = "VergePAY iOS/View/Cell/TransactionHeaderCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE2F20256099009BFE7C /* TransactionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TransactionCell.xib; path = "VergePAY iOS/View/Cell/TransactionCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE3020256099009BFE7C /* QRDisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRDisplayCell.swift; path = "VergePAY iOS/View/Cell/QRDisplayCell.swift"; sourceTree = SOURCE_ROOT; };
+		36D4AE3120256099009BFE7C /* FooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FooterCell.xib; path = "VergePAY iOS/View/Cell/FooterCell.xib"; sourceTree = SOURCE_ROOT; };
+		36D4AE412025614C009BFE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36D4AE432025614C009BFE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		399803812B48FBFE43068168 /* Pods_VergePAY_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VergePAY_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B4E8EF999D8959F373984D /* Pods-VergePAY iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VergePAY iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VergePAY iOSUITests/Pods-VergePAY iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F328540F95B7EF03A57EDDD /* Pods-VergePAY iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VergePAY iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VergePAY iOSTests/Pods-VergePAY iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE915902BB6D1628DB19A1B1 /* Pods-VergePAY iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VergePAY iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VergePAY iOS/Pods-VergePAY iOS.release.xcconfig"; sourceTree = "<group>"; };
+		CDA42BD6F34D0D5F9BE87873 /* Pods-VergePAY iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VergePAY iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VergePAY iOSUITests/Pods-VergePAY iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DFB2F482786B06852FEE86C3 /* Pods_VergePAY_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VergePAY_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D891111B5DAA278DBA3D39 /* Pods_VergePAY_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VergePAY_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D4AD9D20255B0C009BFE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B952E691A44C55BDD2ABFBCB /* Pods_VergePAY_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4ADB120255B0C009BFE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6CE676D8A414A9BABF4363 /* Pods_VergePAY_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4ADBC20255B0C009BFE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7651F9D3367483499EA9CA0 /* Pods_VergePAY_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD96603CF77B2A4D1E92E52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31C29DF762998D106939FA4D /* Pods-VergePAY iOS.debug.xcconfig */,
+				BE915902BB6D1628DB19A1B1 /* Pods-VergePAY iOS.release.xcconfig */,
+				128E89ABECD10874A803975B /* Pods-VergePAY iOSTests.debug.xcconfig */,
+				5F328540F95B7EF03A57EDDD /* Pods-VergePAY iOSTests.release.xcconfig */,
+				53B4E8EF999D8959F373984D /* Pods-VergePAY iOSUITests.debug.xcconfig */,
+				CDA42BD6F34D0D5F9BE87873 /* Pods-VergePAY iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36D4AD9720255B0C009BFE7C = {
+			isa = PBXGroup;
+			children = (
+				36D4ADA220255B0C009BFE7C /* VergePAY iOS */,
+				36D4ADB720255B0C009BFE7C /* VergePAY iOSTests */,
+				36D4ADC220255B0C009BFE7C /* VergePAY iOSUITests */,
+				36D4ADA120255B0C009BFE7C /* Products */,
+				2FD96603CF77B2A4D1E92E52 /* Pods */,
+				7983C22CB5052F6C128AA8BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36D4ADA120255B0C009BFE7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D4ADA020255B0C009BFE7C /* VergePAY iOS.app */,
+				36D4ADB420255B0C009BFE7C /* VergePAY iOSTests.xctest */,
+				36D4ADBF20255B0C009BFE7C /* VergePAY iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D4ADA220255B0C009BFE7C /* VergePAY iOS */ = {
+			isa = PBXGroup;
+			children = (
+				36D4ADA320255B0C009BFE7C /* AppDelegate.swift */,
+				36D4ADD220255D4C009BFE7C /* View */,
+				36D4ADD320255D56009BFE7C /* ViewModel */,
+				36D4ADD520255D6F009BFE7C /* Storyboard */,
+				36D4ADD420255D68009BFE7C /* Model */,
+				36D4AE0920255E02009BFE7C /* Data */,
+				36D4ADD120255D29009BFE7C /* Custom */,
+				36D4ADD620255D7B009BFE7C /* Extension */,
+				36D4ADAA20255B0C009BFE7C /* Assets.xcassets */,
+				36D4ADAF20255B0C009BFE7C /* Info.plist */,
+			);
+			path = "VergePAY iOS";
+			sourceTree = "<group>";
+		};
+		36D4ADB720255B0C009BFE7C /* VergePAY iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D4ADB820255B0C009BFE7C /* VergePAY_iOSTests.swift */,
+				36D4ADBA20255B0C009BFE7C /* Info.plist */,
+			);
+			path = "VergePAY iOSTests";
+			sourceTree = "<group>";
+		};
+		36D4ADC220255B0C009BFE7C /* VergePAY iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36D4ADC320255B0C009BFE7C /* VergePAY_iOSUITests.swift */,
+				36D4ADC520255B0C009BFE7C /* Info.plist */,
+			);
+			path = "VergePAY iOSUITests";
+			sourceTree = "<group>";
+		};
+		36D4ADD120255D29009BFE7C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE2020255E73009BFE7C /* LinkLabel.swift */,
+			);
+			name = Custom;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		36D4ADD220255D4C009BFE7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE1A20255E50009BFE7C /* SplashViewController.swift */,
+				36D4AE1820255E50009BFE7C /* MainViewController.swift */,
+				36D4AE1720255E50009BFE7C /* QRScanViewController.swift */,
+				36D4AE1920255E50009BFE7C /* WebViewController.swift */,
+				36D4AE2320255FFA009BFE7C /* Cell */,
+			);
+			name = View;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		36D4ADD320255D56009BFE7C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE1420255E33009BFE7C /* MainViewModel.swift */,
+			);
+			name = ViewModel;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		36D4ADD420255D68009BFE7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE0520255DF7009BFE7C /* BTCConvertPriceAPIModel.swift */,
+				36D4AE0620255DF7009BFE7C /* MarketPriceAPIModel.swift */,
+			);
+			name = Model;
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+		36D4ADD520255D6F009BFE7C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE402025614C009BFE7C /* LaunchScreen.storyboard */,
+				36D4AE422025614C009BFE7C /* Main.storyboard */,
+				36D4AE2220255F40009BFE7C /* Splash.storyboard */,
+				36D4ADFD20255DD3009BFE7C /* QRScan.storyboard */,
+				36D4ADFE20255DD3009BFE7C /* WebView.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		36D4ADD620255D7B009BFE7C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				36D4ADDE20255D8E009BFE7C /* CGContext+.swift */,
+				36D4ADDF20255D8F009BFE7C /* Collection+.swift */,
+				36D4ADE520255D8F009BFE7C /* DateFormatter+.swift */,
+				36D4ADDD20255D8E009BFE7C /* DispatchQueue+.swift */,
+				36D4ADE020255D8F009BFE7C /* Double+.swift */,
+				36D4ADDB20255D8E009BFE7C /* enum+.swift */,
+				36D4ADDC20255D8E009BFE7C /* NSAttributedString+.swift */,
+				36D4ADE320255D8F009BFE7C /* NSRange+.swift */,
+				36D4ADD720255D8E009BFE7C /* String+.swift */,
+				36D4ADD920255D8E009BFE7C /* UIApplication+.swift */,
+				36D4ADE220255D8F009BFE7C /* UIImage+.swift */,
+				36D4ADD820255D8E009BFE7C /* UILabel+.swift */,
+				36D4ADE420255D8F009BFE7C /* UITableView.swift */,
+				36D4ADDA20255D8E009BFE7C /* UIView+.swift */,
+				36D4ADE120255D8F009BFE7C /* UIViewController+.swift */,
+			);
+			name = Extension;
+			path = "New Group4";
+			sourceTree = "<group>";
+		};
+		36D4AE0920255E02009BFE7C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE0A20255E12009BFE7C /* BlockInfoAddressParser.swift */,
+				36D4AE0C20255E12009BFE7C /* BlockInfoAPIModel.swift */,
+				36D4AE0B20255E12009BFE7C /* BlockInfoData.swift */,
+				36D4AE0D20255E12009BFE7C /* BTCConvertData.swift */,
+				36D4AE0E20255E12009BFE7C /* MarketPriceData.swift */,
+			);
+			name = Data;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		36D4AE2320255FFA009BFE7C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				36D4AE2420256098009BFE7C /* AcountCell.swift */,
+				36D4AE2920256098009BFE7C /* AcountCell.xib */,
+				36D4AE2A20256098009BFE7C /* FooterCell.swift */,
+				36D4AE3120256099009BFE7C /* FooterCell.xib */,
+				36D4AE2B20256098009BFE7C /* MarketCell.swift */,
+				36D4AE2D20256098009BFE7C /* MarketCell.xib */,
+				36D4AE3020256099009BFE7C /* QRDisplayCell.swift */,
+				36D4AE2620256098009BFE7C /* QRDisplayCell.xib */,
+				36D4AE2720256098009BFE7C /* QRScanCell.swift */,
+				36D4AE2520256098009BFE7C /* QRScanCell.xib */,
+				36D4AE2C20256098009BFE7C /* TransactionCell.swift */,
+				36D4AE2F20256099009BFE7C /* TransactionCell.xib */,
+				36D4AE2E20256098009BFE7C /* TransactionHeaderCell.swift */,
+				36D4AE2820256098009BFE7C /* TransactionHeaderCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7983C22CB5052F6C128AA8BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F482786B06852FEE86C3 /* Pods_VergePAY_iOS.framework */,
+				399803812B48FBFE43068168 /* Pods_VergePAY_iOSTests.framework */,
+				F5D891111B5DAA278DBA3D39 /* Pods_VergePAY_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D4AD9F20255B0C009BFE7C /* VergePAY iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D4ADC820255B0C009BFE7C /* Build configuration list for PBXNativeTarget "VergePAY iOS" */;
+			buildPhases = (
+				FFC8C09681251FFA159936F6 /* [CP] Check Pods Manifest.lock */,
+				36D4AD9C20255B0C009BFE7C /* Sources */,
+				36D4AD9D20255B0C009BFE7C /* Frameworks */,
+				36D4AD9E20255B0C009BFE7C /* Resources */,
+				4DBAE83F3E88540D25495B1A /* [CP] Embed Pods Frameworks */,
+				1620D7A0581478482871BCF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VergePAY iOS";
+			productName = "VergePAY iOS";
+			productReference = 36D4ADA020255B0C009BFE7C /* VergePAY iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D4ADB320255B0C009BFE7C /* VergePAY iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D4ADCB20255B0C009BFE7C /* Build configuration list for PBXNativeTarget "VergePAY iOSTests" */;
+			buildPhases = (
+				E2FCEA4F6F50C73FC2FBFB14 /* [CP] Check Pods Manifest.lock */,
+				36D4ADB020255B0C009BFE7C /* Sources */,
+				36D4ADB120255B0C009BFE7C /* Frameworks */,
+				36D4ADB220255B0C009BFE7C /* Resources */,
+				F12150470380040E998297D1 /* [CP] Embed Pods Frameworks */,
+				F8199F5E34EF7F7CADEA194C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D4ADB620255B0C009BFE7C /* PBXTargetDependency */,
+			);
+			name = "VergePAY iOSTests";
+			productName = "VergePAY iOSTests";
+			productReference = 36D4ADB420255B0C009BFE7C /* VergePAY iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36D4ADBE20255B0C009BFE7C /* VergePAY iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D4ADCE20255B0C009BFE7C /* Build configuration list for PBXNativeTarget "VergePAY iOSUITests" */;
+			buildPhases = (
+				93F599C455E8BCCBDFB9B9CF /* [CP] Check Pods Manifest.lock */,
+				36D4ADBB20255B0C009BFE7C /* Sources */,
+				36D4ADBC20255B0C009BFE7C /* Frameworks */,
+				36D4ADBD20255B0C009BFE7C /* Resources */,
+				750A815FBC7A7DBB4DA057CC /* [CP] Embed Pods Frameworks */,
+				EAD9A4B322FE583C81CE0049 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D4ADC120255B0C009BFE7C /* PBXTargetDependency */,
+			);
+			name = "VergePAY iOSUITests";
+			productName = "VergePAY iOSUITests";
+			productReference = 36D4ADBF20255B0C009BFE7C /* VergePAY iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D4AD9820255B0C009BFE7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kentarou;
+				TargetAttributes = {
+					36D4AD9F20255B0C009BFE7C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					36D4ADB320255B0C009BFE7C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36D4AD9F20255B0C009BFE7C;
+					};
+					36D4ADBE20255B0C009BFE7C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36D4AD9F20255B0C009BFE7C;
+					};
+				};
+			};
+			buildConfigurationList = 36D4AD9B20255B0C009BFE7C /* Build configuration list for PBXProject "VergePAY iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D4AD9720255B0C009BFE7C;
+			productRefGroup = 36D4ADA120255B0C009BFE7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D4AD9F20255B0C009BFE7C /* VergePAY iOS */,
+				36D4ADB320255B0C009BFE7C /* VergePAY iOSTests */,
+				36D4ADBE20255B0C009BFE7C /* VergePAY iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D4AD9E20255B0C009BFE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4AE3B20256099009BFE7C /* MarketCell.xib in Resources */,
+				36D4AE0120255DD3009BFE7C /* QRScan.storyboard in Resources */,
+				36D4AE3720256099009BFE7C /* AcountCell.xib in Resources */,
+				36D4AE452025614D009BFE7C /* Main.storyboard in Resources */,
+				36D4AE3420256099009BFE7C /* QRDisplayCell.xib in Resources */,
+				36D4AE3D20256099009BFE7C /* TransactionCell.xib in Resources */,
+				36D4AE3620256099009BFE7C /* TransactionHeaderCell.xib in Resources */,
+				36D4AE0220255DD3009BFE7C /* WebView.storyboard in Resources */,
+				36D4AE3320256099009BFE7C /* QRScanCell.xib in Resources */,
+				36D4AE3F20256099009BFE7C /* FooterCell.xib in Resources */,
+				36D4AE442025614D009BFE7C /* LaunchScreen.storyboard in Resources */,
+				36D4ADAB20255B0C009BFE7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4ADB220255B0C009BFE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4ADBD20255B0C009BFE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1620D7A0581478482871BCF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOS/Pods-VergePAY iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBAE83F3E88540D25495B1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOS/Pods-VergePAY iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOS/Pods-VergePAY iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750A815FBC7A7DBB4DA057CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOSUITests/Pods-VergePAY iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F599C455E8BCCBDFB9B9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VergePAY iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FCEA4F6F50C73FC2FBFB14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VergePAY iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD9A4B322FE583C81CE0049 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOSUITests/Pods-VergePAY iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12150470380040E998297D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOSTests/Pods-VergePAY iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8199F5E34EF7F7CADEA194C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VergePAY iOSTests/Pods-VergePAY iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC8C09681251FFA159936F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VergePAY iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D4AD9C20255B0C009BFE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4ADEA20255D8F009BFE7C /* enum+.swift in Sources */,
+				36D4AE1E20255E50009BFE7C /* WebViewController.swift in Sources */,
+				36D4AE3A20256099009BFE7C /* TransactionCell.swift in Sources */,
+				36D4AE1D20255E50009BFE7C /* MainViewController.swift in Sources */,
+				36D4ADEE20255D8F009BFE7C /* Collection+.swift in Sources */,
+				36D4ADF320255D8F009BFE7C /* UITableView.swift in Sources */,
+				36D4AE0720255DF7009BFE7C /* BTCConvertPriceAPIModel.swift in Sources */,
+				36D4AE0820255DF7009BFE7C /* MarketPriceAPIModel.swift in Sources */,
+				36D4AE2120255E73009BFE7C /* LinkLabel.swift in Sources */,
+				36D4ADF020255D8F009BFE7C /* UIViewController+.swift in Sources */,
+				36D4AE0F20255E12009BFE7C /* BlockInfoAddressParser.swift in Sources */,
+				36D4AE3520256099009BFE7C /* QRScanCell.swift in Sources */,
+				36D4AE3C20256099009BFE7C /* TransactionHeaderCell.swift in Sources */,
+				36D4ADE820255D8F009BFE7C /* UIApplication+.swift in Sources */,
+				36D4AE1C20255E50009BFE7C /* QRScanViewController.swift in Sources */,
+				36D4ADED20255D8F009BFE7C /* CGContext+.swift in Sources */,
+				36D4ADEF20255D8F009BFE7C /* Double+.swift in Sources */,
+				36D4ADE720255D8F009BFE7C /* UILabel+.swift in Sources */,
+				36D4ADE620255D8F009BFE7C /* String+.swift in Sources */,
+				36D4ADEB20255D8F009BFE7C /* NSAttributedString+.swift in Sources */,
+				36D4AE3920256099009BFE7C /* MarketCell.swift in Sources */,
+				36D4AE1120255E12009BFE7C /* BlockInfoAPIModel.swift in Sources */,
+				36D4ADF120255D8F009BFE7C /* UIImage+.swift in Sources */,
+				36D4ADA420255B0C009BFE7C /* AppDelegate.swift in Sources */,
+				36D4AE1F20255E50009BFE7C /* SplashViewController.swift in Sources */,
+				36D4ADF420255D8F009BFE7C /* DateFormatter+.swift in Sources */,
+				36D4AE1220255E12009BFE7C /* BTCConvertData.swift in Sources */,
+				36D4ADE920255D8F009BFE7C /* UIView+.swift in Sources */,
+				36D4AE1320255E12009BFE7C /* MarketPriceData.swift in Sources */,
+				36D4AE3820256099009BFE7C /* FooterCell.swift in Sources */,
+				36D4AE3220256099009BFE7C /* AcountCell.swift in Sources */,
+				36D4ADF220255D8F009BFE7C /* NSRange+.swift in Sources */,
+				36D4ADEC20255D8F009BFE7C /* DispatchQueue+.swift in Sources */,
+				36D4AE1020255E12009BFE7C /* BlockInfoData.swift in Sources */,
+				36D4AE1520255E33009BFE7C /* MainViewModel.swift in Sources */,
+				36D4AE3E20256099009BFE7C /* QRDisplayCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4ADB020255B0C009BFE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4ADB920255B0C009BFE7C /* VergePAY_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4ADBB20255B0C009BFE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4ADC420255B0C009BFE7C /* VergePAY_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D4ADB620255B0C009BFE7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D4AD9F20255B0C009BFE7C /* VergePAY iOS */;
+			targetProxy = 36D4ADB520255B0C009BFE7C /* PBXContainerItemProxy */;
+		};
+		36D4ADC120255B0C009BFE7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D4AD9F20255B0C009BFE7C /* VergePAY iOS */;
+			targetProxy = 36D4ADC020255B0C009BFE7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36D4AE402025614C009BFE7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D4AE412025614C009BFE7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		36D4AE422025614C009BFE7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D4AE432025614C009BFE7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D4ADC620255B0C009BFE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36D4ADC720255B0C009BFE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D4ADC920255B0C009BFE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C29DF762998D106939FA4D /* Pods-VergePAY iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY9CXX38QG;
+				INFOPLIST_FILE = "VergePAY iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.VergePAY-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36D4ADCA20255B0C009BFE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE915902BB6D1628DB19A1B1 /* Pods-VergePAY iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY9CXX38QG;
+				INFOPLIST_FILE = "VergePAY iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.VergePAY-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36D4ADCC20255B0C009BFE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128E89ABECD10874A803975B /* Pods-VergePAY iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY9CXX38QG;
+				INFOPLIST_FILE = "VergePAY iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.VergePAY-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VergePAY iOS.app/VergePAY iOS";
+			};
+			name = Debug;
+		};
+		36D4ADCD20255B0C009BFE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F328540F95B7EF03A57EDDD /* Pods-VergePAY iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY9CXX38QG;
+				INFOPLIST_FILE = "VergePAY iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.VergePAY-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VergePAY iOS.app/VergePAY iOS";
+			};
+			name = Release;
+		};
+		36D4ADCF20255B0C009BFE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B4E8EF999D8959F373984D /* Pods-VergePAY iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY9CXX38QG;
+				INFOPLIST_FILE = "VergePAY iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.VergePAY-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VergePAY iOS";
+			};
+			name = Debug;
+		};
+		36D4ADD020255B0C009BFE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA42BD6F34D0D5F9BE87873 /* Pods-VergePAY iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY9CXX38QG;
+				INFOPLIST_FILE = "VergePAY iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.VergePAY-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VergePAY iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D4AD9B20255B0C009BFE7C /* Build configuration list for PBXProject "VergePAY iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4ADC620255B0C009BFE7C /* Debug */,
+				36D4ADC720255B0C009BFE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D4ADC820255B0C009BFE7C /* Build configuration list for PBXNativeTarget "VergePAY iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4ADC920255B0C009BFE7C /* Debug */,
+				36D4ADCA20255B0C009BFE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D4ADCB20255B0C009BFE7C /* Build configuration list for PBXNativeTarget "VergePAY iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4ADCC20255B0C009BFE7C /* Debug */,
+				36D4ADCD20255B0C009BFE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D4ADCE20255B0C009BFE7C /* Build configuration list for PBXNativeTarget "VergePAY iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4ADCF20255B0C009BFE7C /* Debug */,
+				36D4ADD020255B0C009BFE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D4AD9820255B0C009BFE7C /* Project object */;
+}
