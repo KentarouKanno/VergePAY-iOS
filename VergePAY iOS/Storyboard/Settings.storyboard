@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VzB-zf-O35">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="NXM-Rp-vgP">
+            <objects>
+                <viewController id="VzB-zf-O35" customClass="SettingsViewController" customModule="VergePAY_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zH7-6k-4Zk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dna-Ed-eif" customClass="NotificationUpdateView" customModule="VergePAY_iOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CNl-tm-KbE">
+                                        <rect key="frame" x="0.0" y="504" width="320" height="150"/>
+                                        <color key="backgroundColor" red="0.36796575780000002" green="0.79493993519999995" blue="0.91673564910000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="9YF-wq-jJX"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="LtA-dK-ZAe"/>
+                                    </view>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zCc-ub-aL3">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="VzB-zf-O35" id="Suk-Ai-ovK"/>
+                                            <outlet property="delegate" destination="VzB-zf-O35" id="3Yl-YH-0jm"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="CNl-tm-KbE" firstAttribute="leading" secondItem="Dna-Ed-eif" secondAttribute="leading" id="AOc-vG-N41"/>
+                                    <constraint firstItem="zCc-ub-aL3" firstAttribute="top" secondItem="Dna-Ed-eif" secondAttribute="top" id="Wbx-9u-kGp"/>
+                                    <constraint firstAttribute="bottom" secondItem="zCc-ub-aL3" secondAttribute="bottom" id="XLQ-GU-aAJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="zCc-ub-aL3" secondAttribute="trailing" id="d6U-EM-RnP"/>
+                                    <constraint firstItem="CNl-tm-KbE" firstAttribute="top" secondItem="zCc-ub-aL3" secondAttribute="bottom" id="hKv-vj-iyf"/>
+                                    <constraint firstItem="zCc-ub-aL3" firstAttribute="leading" secondItem="Dna-Ed-eif" secondAttribute="leading" id="ix2-gm-SOY"/>
+                                    <constraint firstAttribute="trailing" secondItem="CNl-tm-KbE" secondAttribute="trailing" id="o9Z-TY-2gc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dna-Ed-eif" firstAttribute="trailing" secondItem="4aC-Yv-8Ac" secondAttribute="trailing" id="4zz-rW-KAm"/>
+                            <constraint firstItem="Dna-Ed-eif" firstAttribute="bottom" secondItem="4aC-Yv-8Ac" secondAttribute="bottom" id="6gJ-SB-RDB"/>
+                            <constraint firstItem="Dna-Ed-eif" firstAttribute="leading" secondItem="4aC-Yv-8Ac" secondAttribute="leading" id="Qct-5C-n7G"/>
+                            <constraint firstItem="Dna-Ed-eif" firstAttribute="top" secondItem="4aC-Yv-8Ac" secondAttribute="top" id="SzB-5i-7WM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4aC-Yv-8Ac"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lbk-zW-29a">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="MKk-fd-SH7" customClass="NavigationTitleView" customModule="VergePAY_iOS" customModuleProvider="target">
+                            <rect key="frame" x="80" y="4.5" width="160" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="zCc-ub-aL3" id="ofp-Se-ohz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRs-XX-HCM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="84.375" y="141.5492957746479"/>
+        </scene>
+    </scenes>
+</document>

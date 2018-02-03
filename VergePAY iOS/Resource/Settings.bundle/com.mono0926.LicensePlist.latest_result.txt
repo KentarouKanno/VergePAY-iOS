@@ -1,0 +1,25 @@
+name: Kanna, nameSpecified: 
+body: The MIT License (MIT…
+version: 4.0.0
+
+name: LicensePlist, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 1.8.2
+
+name: R.swift, nameSpecified: 
+body: The MIT License (MIT…
+version: 4.0.0
+
+name: R.swift.Library, nameSpecified: 
+body: The MIT License (MIT…
+version: 4.0.0
+
+name: SVProgressHUD, nameSpecified: 
+body: Copyright (c) 2011-2…
+version: 2.2.2
+
+add-version-numbers: false
+
+LicensePlist Version: 1.8.3

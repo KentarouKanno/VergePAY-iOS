@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  VergePAY iOS
+
+  Created by Kentarou on 2018/02/04.
+  Copyright © 2018年 Kentarou. All rights reserved.
+*/
+
+
+"Copy Address Message" = "アドレスをコピーしました";
+"Keyboard Close" = "閉じる";
+"Send XVG" = "送金 XVG : ";
+"Payment In" = "入金";
+"Payment Out" = "出金";
+"History None" = "なし";
+"History Header Detail Title" = "日時 / 区分 / 金額 / TX";
+
+"CameraAlertTitle" = "カメラへのアクセスが許可されていません";
+"CameraAlertMessage" = "設定画面へ移動し、カメラへのアクセス許可をしてください。";
+"PhotoAlertTitle" = "写真へのアクセスが許可されていません";
+"PhotoAlertMessage" = "設定画面へ移動し、写真へのアクセス許可をしてください。";
+"QRReadFailed" = "QRコードの読み込みに失敗しました";
+"Cancel" = "キャンセル";
+"toSettings" = "設定画面へ";
+
+"DefaultLanguage" = "英語";
+
+"Market" = "マーケット";
+"Calculate" = "計算";
+"Account" = "アカウント";
+"History" = "入出履歴";
+
+"DisplaySetting" = "表示設定";
+"AppSetting" = "アプリ設定";
+
+"Cancel" = "キャンセル";
+"Language" = "言語";
+"Currency" = "通貨";
+"ColorTheme" = "カラーテーマ";
+
+"Address" = "アドレス";
+"QR Code" = "QRコード";
+
+"English" = "英語";
+"Japanease" = "日本語";
+
+"LightTheme" = "ライト";
+"DarkTheme" = "ダーク";
+
+"PayTextFieldPlaceholder" = "送金する金額を入力してください";
+"XVG Address" = "XVG Address";
+
+"NoContentsMessage" = "コンテンツが取得できませんでした";
+
+"Camera" = "カメラ";
+"Photo" = "写真";
+"Cancel" = "キャンセル";

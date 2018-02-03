@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  VergePAY iOS
+
+  Created by Kentarou on 2018/02/04.
+  Copyright © 2018年 Kentarou. All rights reserved.
+*/
+
+
+"Copy Address Message" = "Address copied";
+"Keyboard Close" = "Close";
+"Send XVG" = "Send XVG : ";
+"Payment In" = "In";
+"Payment Out" = "Out";
+"History None" = "None";
+"History Header Detail Title" = "Date / Type / Amount / TX";
+
+"CameraAlertTitle" = "Access to the camera is not permitted";
+"CameraAlertMessage" = "Please go to the setting screen and approve access to the camera.";
+"PhotoAlertTitle" = "Access to the photo is not permitted";
+"PhotoAlertMessage" = "Please go to the setting screen and approve access to the photo.";
+"QRReadFailed" = "Failed to load QR code";
+"Cancel" = "Cancel";
+"toSettings" = "Setting";
+
+"DefaultLanguage" = "English";
+
+"Market" = "Market";
+"Calculate" = "Calculate";
+"Account" = "Account";
+"History" = "History";
+
+"DisplaySetting" = "Display Setting";
+"AppSetting" = "App Setting";
+
+"Language" = "Language";
+"Currency" = "Currency";
+"ColorTheme" = "Color Theme";
+
+"Address" = "Address";
+"QR Code" = "QR Code";
+
+"English" = "English";
+"Japanease" = "Japanease";
+
+"LightTheme" = "Light";
+"DarkTheme" = "Dark";
+
+"PayTextFieldPlaceholder" = "Please enter the amount to be remitted";
+"XVG Address" = "XVG Address";
+
+"NoContentsMessage" = "Content could not be obtained";
+
+"Photo" = "Photo";
+"Camera" = "Camera";
+"Cancel" = "Cancel";

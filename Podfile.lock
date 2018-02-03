@@ -1,0 +1,34 @@
+PODS:
+  - Kanna (4.0.0)
+  - LicensePlist (1.8.3)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - SVProgressHUD (2.2.2)
+
+DEPENDENCIES:
+  - Kanna (from `https://github.com/tid-kijyun/Kanna`, branch `feature/v4.0.0`)
+  - LicensePlist
+  - R.swift
+  - SVProgressHUD
+
+EXTERNAL SOURCES:
+  Kanna:
+    :branch: feature/v4.0.0
+    :git: https://github.com/tid-kijyun/Kanna
+
+CHECKOUT OPTIONS:
+  Kanna:
+    :commit: 58e3513d20cd16fe8b9ff16b5a2b481fcd643499
+    :git: https://github.com/tid-kijyun/Kanna
+
+SPEC CHECKSUMS:
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  LicensePlist: 3fda61ebe060afc8fc6d995df34a91401af5a244
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+
+PODFILE CHECKSUM: 9cb91b8633a6af26fef1fec8d73bb0ba2c5b55b4
+
+COCOAPODS: 1.3.1

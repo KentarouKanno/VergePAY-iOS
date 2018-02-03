@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PickerCell" id="KGk-i7-Jjw" customClass="PickerCell" customModule="VergePAY_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="151.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrI-Pg-bII" customClass="NotificationUpdateView" customModule="VergePAY_iOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eq5-j9-6OH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5O0-Ig-U7t" userLabel="BottomGrayLine">
+                                <rect key="frame" x="30" y="150" width="260" height="1"/>
+                                <color key="backgroundColor" red="0.82745098039999998" green="0.82745098039999998" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="hRX-kD-5Ty"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wNz-jb-MH3" userLabel="BottomBlueLine">
+                                <rect key="frame" x="20" y="150" width="280" height="2"/>
+                                <color key="backgroundColor" red="0.36796575780000002" green="0.79493993519999995" blue="0.91673564910000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="75M-3c-SPl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eq5-j9-6OH" secondAttribute="trailing" id="46l-nP-Zfz"/>
+                            <constraint firstItem="wNz-jb-MH3" firstAttribute="leading" secondItem="TrI-Pg-bII" secondAttribute="leading" constant="20" id="6PW-aD-1Z2"/>
+                            <constraint firstItem="5O0-Ig-U7t" firstAttribute="leading" secondItem="TrI-Pg-bII" secondAttribute="leading" constant="30" id="8XM-Fv-ah9"/>
+                            <constraint firstAttribute="height" priority="999" constant="152" id="FUG-Vf-JlG"/>
+                            <constraint firstItem="eq5-j9-6OH" firstAttribute="top" secondItem="TrI-Pg-bII" secondAttribute="top" id="G3U-5g-psM"/>
+                            <constraint firstItem="eq5-j9-6OH" firstAttribute="leading" secondItem="TrI-Pg-bII" secondAttribute="leading" id="LJK-gT-PUU"/>
+                            <constraint firstItem="wNz-jb-MH3" firstAttribute="top" secondItem="eq5-j9-6OH" secondAttribute="bottom" id="Z4B-NY-Tcr"/>
+                            <constraint firstAttribute="trailing" secondItem="wNz-jb-MH3" secondAttribute="trailing" constant="20" id="aA0-rS-q6O"/>
+                            <constraint firstAttribute="trailing" secondItem="5O0-Ig-U7t" secondAttribute="trailing" constant="30" id="dRG-mq-iOI"/>
+                            <constraint firstAttribute="bottom" secondItem="5O0-Ig-U7t" secondAttribute="bottom" constant="1" id="ouX-XA-c6J"/>
+                            <constraint firstAttribute="bottom" secondItem="wNz-jb-MH3" secondAttribute="bottom" id="wBu-0b-89x"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TrI-Pg-bII" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3em-QR-8FQ"/>
+                    <constraint firstItem="TrI-Pg-bII" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ru7-z9-rde"/>
+                    <constraint firstAttribute="bottom" secondItem="TrI-Pg-bII" secondAttribute="bottom" constant="-0.5" id="TTE-TB-xtQ"/>
+                    <constraint firstAttribute="trailing" secondItem="TrI-Pg-bII" secondAttribute="trailing" id="trV-rI-v6m"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bottomBlueLine" destination="wNz-jb-MH3" id="nbq-Ka-br0"/>
+                <outlet property="bottomGrayLine" destination="5O0-Ig-U7t" id="kDs-JZ-W44"/>
+                <outlet property="picker" destination="eq5-j9-6OH" id="xBt-PV-crM"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="141"/>
+        </tableViewCell>
+    </objects>
+</document>
